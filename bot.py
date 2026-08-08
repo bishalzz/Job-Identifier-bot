@@ -1,6 +1,7 @@
 import os
 import requests
 import re
+import educatenepal
 
 import jobs as merojob          # your merojob fetcher (jobs.py)
 import kumari                   # your kumarijob fetcher (kumari.py)
@@ -12,7 +13,8 @@ SEEN_FILE = "seen.txt"
 
 IT_KEYWORDS = [
     # development
-    "developer", "development", "software", "programmer", "programming",
+    "developer", "software development", "web development", "software",
+    "programmer", "programming",
     "web develop", "frontend", "front-end", "front end",
     "backend", "back-end", "back end", "full stack", "fullstack", "full-stack",
     "python", "java", "javascript", "php", ".net", "dotnet",
@@ -91,6 +93,7 @@ def send_to_telegram(job):
 FETCHERS = [
     ("merojob", merojob.get_jobs),
     ("kumarijob", kumari.get_jobs),
+    ("educatenepal", educatenepal.get_jobs),
 ]
 
 
