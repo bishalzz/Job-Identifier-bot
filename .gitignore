@@ -1,0 +1,4 @@
+.env
+seen.txt
+__pycache__/
+*.pyc
