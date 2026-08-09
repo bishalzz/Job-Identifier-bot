@@ -63,6 +63,13 @@ def wanted(job):
     return False
 
 
+def job_signature(job):
+    """A normalized fingerprint (title+company) to catch the same job across portals."""
+    title = re.sub(r"[^a-z0-9]", "", job.get("title", "").lower())
+    company = re.sub(r"[^a-z0-9]", "", job.get("company", "").lower())
+    return f"{title}|{company}"
+
+
 def load_seen():
     if not os.path.exists(SEEN_FILE):
         return set()
@@ -70,13 +77,12 @@ def load_seen():
         return set(line.strip() for line in f if line.strip())
 
 
-def mark_seen(job_id):
+def mark_seen(value):
     with open(SEEN_FILE, "a", encoding="utf-8") as f:
-        f.write(job_id + "\n")
+        f.write(value + "\n")
 
 
-def send_to_telegram(job):
-    source = "merojob" if job["id"].isdigit() else "kumarijob"
+def send_to_telegram(job, source):
     text = (
         f"🆕 {job['title']}\n"
         f"🏢 {job['company']}\n"
@@ -92,14 +98,14 @@ def send_to_telegram(job):
     resp.raise_for_status()
 
 
-# each portal's fetcher, wrapped so one failing never stops the other
+# each portal's fetcher, wrapped so one failing never stops the others
 FETCHERS = [
     ("merojob", merojob.get_jobs),
     ("kumarijob", kumari.get_jobs),
     ("educatenepal", educatenepal.get_jobs),
     ("merorojgari", merorojgari.get_jobs),
     ("hamrojobs", hamrojobs.get_jobs),
-    ("jobejee", jobejee.get_jobs)
+    ("jobejee", jobejee.get_jobs),
 ]
 
 
@@ -109,21 +115,40 @@ def gather_all_jobs():
         try:
             portal_jobs = fetch()
             print(f"[{name}] fetched {len(portal_jobs)} jobs")
+            for job in portal_jobs:
+                job["source"] = name          # remember which portal it came from
             all_jobs.extend(portal_jobs)
         except Exception as e:
-            print(f"[{name}] FAILED: {e}")     # keep going with the other portal
+            print(f"[{name}] FAILED: {e}")     # one portal failing never stops the others
     return all_jobs
 
 
 def run():
-    seen = load_seen()
+    seen = load_seen()                      # holds both IDs and signatures from past runs
     jobs = gather_all_jobs()
-    new_jobs = [j for j in jobs if wanted(j) and j["id"] not in seen]
-    print(f"Total {len(jobs)} jobs, {len(new_jobs)} new & matching filter.")
+
+    new_jobs = []
+    sent_signatures = set()                 # signatures sent in THIS run
+
+    for job in jobs:
+        if not wanted(job):
+            continue
+        if job["id"] in seen:               # already sent this exact listing before
+            continue
+
+        sig = job_signature(job)
+        if sig in seen or sig in sent_signatures:
+            continue                        # same job from another portal — skip
+        sent_signatures.add(sig)
+        new_jobs.append(job)
+
+    print(f"Total {len(jobs)} jobs, {len(new_jobs)} new & matching filter (after dedup).")
+
     for job in new_jobs:
-        send_to_telegram(job)
-        mark_seen(job["id"])
-        print(f"Sent: {job['title']}")
+        send_to_telegram(job, job.get("source", "unknown"))
+        mark_seen(job["id"])                # remember the ID
+        mark_seen(job_signature(job))       # AND remember the signature
+        print(f"Sent: {job['title']}  [{job.get('source')}]")
     print("Done.")
 
 
