@@ -3,6 +3,7 @@ import requests
 import re
 import educatenepal
 import merorojgari
+import hamrojobs
 
 import jobs as merojob          # your merojob fetcher (jobs.py)
 import kumari                   # your kumarijob fetcher (kumari.py)
@@ -96,6 +97,7 @@ FETCHERS = [
     ("kumarijob", kumari.get_jobs),
     ("educatenepal", educatenepal.get_jobs),
     ("merorojgari", merorojgari.get_jobs),
+    ("hamrojobs", hamrojobs.get_jobs),
 ]
 
 
