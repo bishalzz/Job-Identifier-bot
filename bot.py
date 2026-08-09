@@ -2,6 +2,7 @@ import os
 import requests
 import re
 import educatenepal
+import jobejee
 import merorojgari
 import hamrojobs
 
@@ -98,6 +99,7 @@ FETCHERS = [
     ("educatenepal", educatenepal.get_jobs),
     ("merorojgari", merorojgari.get_jobs),
     ("hamrojobs", hamrojobs.get_jobs),
+    ("jobejee", jobejee.get_jobs)
 ]
 
 
