@@ -26,3 +26,7 @@ kumari-75271
 helpdeskassistant|ministryofsocialdevelopment
 merorojgari-help-desk-assistant
 helpdeskassistant|
+kumari-75279
+seniorfullstackdeveloperbackend|codemantra
+kumari-75277
+mobileappdeveloperreactnative|codemantra
