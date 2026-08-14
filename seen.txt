@@ -70,3 +70,5 @@ dataengineer|dlyticaneal
 datascientist|dlyticaneal
 merorojgari-nepal-finance-limited-full-time-department-head-branch-manager-it-assistant-junior-assistant
 departmentheadbranchmanageritassistantjuniorassistant|
+merorojgari-administrative-officer-computer-operator-engineer-technical-assistant
+administrativeofficercomputeroperatorengineertechnicalassistant|
