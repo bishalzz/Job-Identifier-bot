@@ -90,3 +90,5 @@ merorojgari-erp-technical-officer
 erptechnicalofficer|
 203076
 softwareqaengineer|worldlinkcommunications
+merorojgari-office-assistant-computer-teacher-math-teacher-science-teacher
+officeassistantcomputerteachermathteacherscienceteacher|
