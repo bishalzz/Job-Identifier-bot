@@ -116,3 +116,5 @@ merorojgari-assistant-computer-operator-2
 assistantcomputeroperator|
 203124
 systemsupportassociate|nepaldigitalpaymentscompanylimited
+merorojgari-school-nurse-biomedical-engineer-it-officer-school-nurse-coordinator-hospital-manager-medical-lab-technologist-physiotherapist-medical-officer
+schoolnursebiomedicalengineeritofficerschoolnursecoordinatorhospitalmanagermedicallabtechnologistphysiotherapistmedicalofficer|
