@@ -128,3 +128,7 @@ kumari-75693
 graphicdesigner|fishtailtourstravelspvt
 kumari-75709
 graphicdesigner|eastwestconcernpvtltd
+kumari-75895
+qaautomationpokharabased|prixatechnologies
+kumari-75892
+assocmgrsoftwareqa|iqvia
