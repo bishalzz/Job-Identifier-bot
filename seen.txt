@@ -172,3 +172,7 @@ merorojgari-project-coordinator-admin-finance-officer-technical-officer-technici
 projectcoordinatoradminfinanceofficertechnicalofficertechnician|
 203431
 ictcyberproductspecialist|ncell
+203429
+qaautomationengineer|nevasce
+jobejee-48432
+atmitengineer|rajtradingconcern
