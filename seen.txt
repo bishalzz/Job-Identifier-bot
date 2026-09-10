@@ -214,3 +214,5 @@ kumari-76757
 auxiliaryhealthworkerahwlabassistantradiographerstaffnurseitassistantmedicalofficer|dhaulagiriprovincialhospital
 merorojgari-auxiliary-health-worker-ahw-lab-assistant-radiographer-staff-nurse-it-assistant-medical-officer
 auxiliaryhealthworkerahwlabassistantradiographerstaffnurseitassistantmedicalofficer|
+merorojgari-project-officer-digital
+projectofficerdigital|
