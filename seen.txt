@@ -216,3 +216,7 @@ merorojgari-auxiliary-health-worker-ahw-lab-assistant-radiographer-staff-nurse-i
 auxiliaryhealthworkerahwlabassistantradiographerstaffnurseitassistantmedicalofficer|
 merorojgari-project-officer-digital
 projectofficerdigital|
+merorojgari-sustainable-infrastructure-specialist
+sustainableinfrastructurespecialist|
+merorojgari-assistant-computer-operator-health-assistant-pharmacy-supervisor-staff-nurse-office-helper-cleaner
+assistantcomputeroperatorhealthassistantpharmacysupervisorstaffnurseofficehelpercleaner|
