@@ -240,3 +240,9 @@ computeroperator|
 ccnatrainerciscocertification|everestit
 203668
 itexecutive|multiverseinternationalmanagement
+merorojgari-assistant-computer-operator-office-helper-light-vehicle-driver
+assistantcomputeroperatorofficehelperlightvehicledriver|
+merorojgari-assistant-computer-operator-lab-technician-physiotherapy-assistant-pharmacy-assistant-anesthesia-assistant-staff-nurse-medical-officer-gynecologist
+assistantcomputeroperatorlabtechnicianphysiotherapyassistantpharmacyassistantanesthesiaassistantstaffnursemedicalofficergynecologist|
+merorojgari-narayani-development-bank-limited-full-time-branch-manager-credit-officer-relationship-officer
+branchmanagercreditofficerrelationshipofficer|
