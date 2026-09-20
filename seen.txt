@@ -272,3 +272,9 @@ merorojgari-staff-nurse-radiographer-lab-assistant-auxiliary-health-worker-ahw-a
 staffnurseradiographerlabassistantauxiliaryhealthworkerahwauxiliarynursemidwifeanmmedicalofficeritassistant|
 merorojgari-computer-teacher
 computerteacher|
+203793
+nurse|ahospital
+203784
+assistantpharmacistspharmacist|trucarepharmacyandbeautystore
+merorojgari-roving-logistics-and-it-officer
+rovinglogisticsanditofficer|
