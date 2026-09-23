@@ -288,3 +288,9 @@ nocengineer|telecomproject
 softwaresalesmarketingspecialist|sterlingwells
 jobejee-19157
 computertechnician|globalitsupportpvtltd
+merorojgari-information-technology-department-system-support-supervisor-senior-assistant-assistant
+informationtechnologydepartmentsystemsupportsupervisorseniorassistantassistant|
+merorojgari-information-technology-department-system-administrator-cloud-windows-linux-infrastructure
+informationtechnologydepartmentsystemadministratorcloudwindowslinuxinfrastructure|
+merorojgari-it-and-digitalisation-officer
+itanddigitalisationofficer|
