@@ -312,3 +312,5 @@ merorojgari-computer-assistant-trainer
 computerassistanttrainer|
 203925
 graphicdesigner|routineofnepalbanda
+merorojgari-finance-data-analyst
+financedataanalyst|
