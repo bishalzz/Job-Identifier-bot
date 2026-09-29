@@ -314,3 +314,5 @@ computerassistanttrainer|
 graphicdesigner|routineofnepalbanda
 merorojgari-finance-data-analyst
 financedataanalyst|
+merorojgari-managerial-level-digital-banking-and-cards-department
+managerialleveldigitalbankingandcardsdepartment|
