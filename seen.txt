@@ -344,3 +344,5 @@ merorojgari-medical-officer-health-assistant-pharmacy-assistant-auxiliary-health
 medicalofficerhealthassistantpharmacyassistantauxiliaryhealthworkerahwassistantcomputeroperatorhelper|
 merorojgari-cg-holdings-lalitpur-full-time-assistant-manager-software-developer
 assistantmanagersoftwaredeveloper|
+merorojgari-digital-content-creator
+digitalcontentcreator|
