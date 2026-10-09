@@ -370,3 +370,7 @@ jobejee-48532
 nocshiftleadnoclead|telecomproject
 jobejee-48530
 telecommunicationengineertechnician|telecomproject
+204087
+mobileappdevelopertrainee|criico
+204085
+fullstackdevelopernextjs|criico
