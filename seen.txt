@@ -374,3 +374,5 @@ telecommunicationengineertechnician|telecomproject
 mobileappdevelopertrainee|criico
 204085
 fullstackdevelopernextjs|criico
+jobejee-48536
+graphicdesigner|printshala
