@@ -402,3 +402,5 @@ merorojgari-information-management-technical-officer
 informationmanagementtechnicalofficer|
 merorojgari-help-desk-executive-2
 helpdeskexecutive|
+merorojgari-sagar-group-kathmandu-full-time-it-assistant
+itassistant|
