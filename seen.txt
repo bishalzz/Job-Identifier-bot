@@ -404,3 +404,5 @@ merorojgari-help-desk-executive-2
 helpdeskexecutive|
 merorojgari-sagar-group-kathmandu-full-time-it-assistant
 itassistant|
+merorojgari-workday-financial-system-administrator-remote
+workdayfinancialsystemadministratorremote|
