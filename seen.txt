@@ -406,3 +406,5 @@ merorojgari-sagar-group-kathmandu-full-time-it-assistant
 itassistant|
 merorojgari-workday-financial-system-administrator-remote
 workdayfinancialsystemadministratorremote|
+merorojgari-project-manager-infrastructure
+projectmanagerinfrastructure|
