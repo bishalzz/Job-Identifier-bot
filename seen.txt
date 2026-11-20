@@ -470,3 +470,7 @@ projectdevelopmentmanager|siliconpower
 plantinfrastructureprojectsengineer|janakipolychem
 205017
 creditanalystaustralianmortgage|outsourcedexperts
+205075
+pythondatabasedeveloper|nowcfo
+205003
+medicalassistant|cutiscare
